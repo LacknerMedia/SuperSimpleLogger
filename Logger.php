@@ -26,7 +26,6 @@ class Logger
 	public function __destruct()
 	{
 
-		fclose($this->file);
-		// TODO: Implement __destruct() method.
+		fclose($this->file); 
 	}
 }
